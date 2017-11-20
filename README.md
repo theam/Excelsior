@@ -1,2 +1,3 @@
 # Excelsior
-A Haskell library to convert from xlsx to csv.
+
+Convert your Xlsx files to csv in an easy way.

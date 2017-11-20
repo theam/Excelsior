@@ -1,0 +1,34 @@
+name:                Excelsior
+version:             0.0.1
+synopsis:            Excelsior
+description:         Please see README.md
+homepage:            https://github.com/theam/Excelsior
+license:             Apache-2.0
+author:              Theam
+maintainer:          hackers@theam.io
+copyright:           2017 Theam
+category:            DataScience
+extra-source-files:
+- README.md
+
+library:
+  source-dirs: src
+  dependencies:
+    # Base dependencies
+    - base >= 4.7 && < 5
+    - foundation
+    - text
+    - filepath
+    - directory
+    - optparse-generic
+    - xlsx
+    - bytestring
+    - containers
+
+  default-extensions:
+    - OverloadedStrings
+    - NoImplicitPrelude
+
+  ghc-options:
+    - -Wall
+    - -Werror
